@@ -1,2 +1,2 @@
 # 42-minitalk
-rogramme d’échange de données
+programme d’échange de données
