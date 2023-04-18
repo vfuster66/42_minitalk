@@ -21,3 +21,26 @@ l’opérateur de négation ou de complément : ~ ;
 l’opérateur de décalage à droite : >> ;
 
 l’opérateur de décalage à gauche : <<.
+
+ Opérateur combiné  --------------        Équivalent à
+
+variable &= nombre  -------------  variable = variable & nombre
+
+variable |= nombre  -------------  variable = variable | nombre
+
+variable ^= nombre  -------------  variable = variable ^ nombre
+
+variable <<= nombre  ------------  variable = variable << nombre
+
+variable >>= nombre  ------------  variable = variable >> nombre
+
+
+
+
+
+
+
+
+
+
+
