@@ -72,11 +72,14 @@ void send_str(char *str, pid_t pid)
 
 void sig_usr(int sig)
 {
-    if (sig == SIGUSR1) // Si le signal reçu est SIGUSR1
+    // Si le signal reçu est SIGUSR1
+    if (sig == SIGUSR1) 
     {
-        g_bit_control = 1; // Définir la variable globale g_bit_control à 1 pour indiquer que le bit a été reçu
+        // Définir la variable globale g_bit_control à 1 pour indiquer que le bit a été reçu
+        g_bit_control = 1; 
     }
-    else if (sig == SIGUSR2) // Si le signal reçu est SIGUSR2
+    // Si le signal reçu est SIGUSR2
+    else if (sig == SIGUSR2) 
     {
         // Afficher un message pour indiquer que le message a été reçu, puis quitter avec un code de succès
         ft_printf("Message received !\n");
