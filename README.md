@@ -1,6 +1,9 @@
 # 42-minitalk
 programme d’échange de données
 
+![125](https://github.com/vfuster66/42-minitalk/assets/124174795/1622a6cf-c84b-48f3-80e2-bbf1379f01aa)
+
+
 Ce projet a pour but de vous faire réaliser un petit programme d’échange de données
 utilisant les signaux UNIX.
 
