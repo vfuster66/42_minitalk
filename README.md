@@ -1,4 +1,4 @@
-# 42-minitalk
+# 42_minitalk
 programme d’échange de données
 
 ✅ Validé à 125% le 10 mai 2023
